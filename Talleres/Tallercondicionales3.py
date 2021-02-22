@@ -11,3 +11,23 @@
 
 #Ejercicio 3
 print ("#"*20, "¿Cual es la diferencia entre un año cualquiera y el actual?", "#"*20)
+
+#-----Constantes-----
+Bienvenida = "¡Bienvenido! vamos sacar la diferencia entre dos años diferentes"
+PreguntaAño = "¿En que año estamos? : "
+PreguntaDiferente = "Ingrese otro año diferente : "
+MensajeResultado = "{} {} años"
+MensajeIguales = "Los años ingresados son iguales"
+
+#-----Codigo de entrada-----
+print (Bienvenida)
+AñoActual = int (input (PreguntaAño))
+AñoDiferente = int (input (PreguntaDiferente))
+if (AñoActual > AñoDiferente): 
+    resta = AñoActual - AñoDiferente
+    print (MensajeResultado.format ("han pasado", resta))
+elif (AñoDiferente > AñoActual):
+    resta = AñoDiferente - AñoActual
+    print (MensajeResultado.format ("faltan", resta))
+else :
+    print (MensajeIguales)

@@ -11,3 +11,20 @@
 
 #Ejercicio 2
 print ("#"*20, "¿Eres joven, adulto o adulto mayor?", "#"*20)
+
+#-----constantes-----
+Bienvenida = "¡Bienvenido! vamos a mirar si eres joven o adulto"
+Mensajeresultado = "De acuerdo a los datos ingresados, tu eres un {}"
+PreguntaEdad = "Ingrese su edad : "
+
+#-----Codigo de entrada-----
+print (Bienvenida)
+edad = int (input (PreguntaEdad))
+if (edad < 18):
+    print (Mensajeresultado.format ("menor de edad"))
+elif (edad >= 18 and edad <= 25):
+    print (Mensajeresultado.format ("adulto joven"))
+elif (edad >= 26 and edad <= 60):
+    print (Mensajeresultado.format ("adulto"))
+else :
+    print (Mensajeresultado.format ("adulto mayor"))
