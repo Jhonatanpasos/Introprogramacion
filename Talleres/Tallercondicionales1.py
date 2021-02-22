@@ -11,6 +11,22 @@
 
 #Ejercicio 1
 print ("#"*20, "Determinemos relaciones entre numeros", "#"*20)
+#-----Constantes------
+Bienvenida = "¡Bienvenido! vamos a determinar la relación entre dos nuemros"
+Pregunta_A = "Ingrese un numero"
+Pregunta_B = "Ingrese otro numero"
+MensajeMayor = "El numero {} es mayor que el numero {}, ya que {} > {}"
+MensajeIguales = "El numero {} es igual al numero {}, ya que {} == {}"
+#-----Codigo de entrada-----
+NumeroA = int (input (Pregunta_A))
+NumeroB = int (input (Pregunta_B))
+if (NumeroA > NumeroB):
+    print (MensajeMayor.format ("A","B", NumeroA, NumeroB))
+elif (NumeroB > NumeroA):
+    print (MensajeMayor.format ("B","A", NumeroB, NumeroA))
+else : 
+    print (MensajeIguales.format ("A","B", NumeroA, NumeroB))
+
 
 #Ejercicio 2
 print ("#"*20, "¿Eres joven, adulto o adulto mayor?", "#"*20)
