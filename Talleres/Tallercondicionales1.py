@@ -26,13 +26,3 @@ elif (NumeroB > NumeroA):
     print (MensajeMayor.format ("B","A", NumeroB, NumeroA))
 else : 
     print (MensajeIguales.format ("A","B", NumeroA, NumeroB))
-
-
-#Ejercicio 2
-print ("#"*20, "¿Eres joven, adulto o adulto mayor?", "#"*20)
-
-#Ejercicio 3
-print ("#"*20, "¿Cual es la diferencia entre un año cualquiera y el actual?", "#"*20)
-
-#Ejercicio 4 
-print ("#"*20, "Convirtamos medidas", "#"*20)
