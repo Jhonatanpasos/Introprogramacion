@@ -17,4 +17,4 @@ print ("el resultado de la división es", dividir)
 #Elevamos una variable a otra variable 
 exponente = numeroA**numeroB
 print ("el resultado de la elevación al exponente es", exponente)
-#Usamos print para mostrar en pantalla los resultados de las operaciones
+#Usamos print para mostrar en pantalla los resultados de las operaciones realizadas
