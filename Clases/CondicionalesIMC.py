@@ -1,4 +1,4 @@
-#------constantes------#
+#-------constantes-------#
 PREGUNTA_ESTATURA = "¿Cual es tu estatura en metros (m)? : "
 PREGUNTA_PES0 = "¿Cuanto pesas en kilogramos (kg)? : "
 MENSAJE_BIENVENIDA = "Hola, ¡bienvenido! vamos a calcular tu IMC"
