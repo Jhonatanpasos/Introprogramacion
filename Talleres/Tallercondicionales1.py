@@ -13,7 +13,7 @@
 print ("#"*20, "Determinemos relaciones entre numeros", "#"*20)
 
 #-----Constantes------
-Bienvenida = "¡Bienvenido! vamos a determinar la relación entre dos nuemros"
+Bienvenida = "¡Bienvenido! vamos a determinar la relación entre dos numeros"
 Pregunta_A = "Ingrese un numero : "
 Pregunta_B = "Ingrese otro numero : "
 MensajeMayor = "El numero {} es mayor que el numero {}"

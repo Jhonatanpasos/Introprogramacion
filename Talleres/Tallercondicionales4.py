@@ -12,3 +12,25 @@
 
 #Ejercicio 4 
 print ("#"*20, "Convirtamos medidas", "#"*20)
+
+#------Constantes------
+Bienvenida = "¡Bienvenido! vamos a convertir medidas"
+PreguntaMedida = "Ingrese la medida en centimetros (cm) : "
+PreguntaConversión = """¿A que unidades desea hacer la conversión? : 
+k - kilimetros
+m - metros
+mm - milimetros
+Ingresa tu respuesta (la inical de la medida en minuscula) : """
+
+#------Codigo de entrada------
+medida = float (input (PreguntaMedida))
+unidad = input (PreguntaConversión)
+metros = medida *10**-2
+kilometros = medida *10**-5
+milimetros = medida *10
+if (unidad == "k"):
+    print (kilometros)
+elif (unidad == "m"):
+    print (metros)
+elif (unidad == "mm"):
+    print (milimetros)
