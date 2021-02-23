@@ -1,4 +1,4 @@
-#Otorgamos un valor verdadero o falso a las variables
+#Otorgamos un valor verdadero o falso a las variables de prueba
 pruebaV = True
 pruebaF = False
 print (pruebaV)
