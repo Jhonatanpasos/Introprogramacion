@@ -1,4 +1,4 @@
-#-----Constantes-----#
+#------Constantes------#
 MENSAJE_BIENVENIDA = "Hola, espero que estes bien"
 PREGUNTA_NUMERO_A = "Ingrese un numero A : "
 PREGUNTA_NUMERO_B = "Ingrese un numero B : "
