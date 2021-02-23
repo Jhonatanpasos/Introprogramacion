@@ -1,4 +1,4 @@
-#-----Constantes-----#
+#------Constantes------#
 MENSAJE_BIENVENIDA = "Bienvenido al codigo"
 MENSAJE_MAYOR_EDAD = "Eres mayor de edad, puedes continuar"
 MENSAJE_MENOR_EDAD = "Eres menor de edad, no puedes continuar"
