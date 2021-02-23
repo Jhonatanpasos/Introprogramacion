@@ -1,4 +1,4 @@
-#-----Constantes------
+#------Constantes-------
 #Definimos la preguta
 PREGUNTA_NOMBRE = "¿Como te llamas? : "
 PREGUNTA_EDAD = "¿Que edad tienes? : "
