@@ -5,11 +5,11 @@ MENSAJE_SALUDO = """
     ¡vamos a jugar!"""
 PREGUNTAR_NUMERO = """
         En este juego debes acertar un número entero
-        que va desde el 1-10, la idea es que lo
-        puedes intentar las veces que quieras..
-        muchos exitos, ingresa tu numero 
+        que va desde el 1-10, para lograrlo tienes tres
+        intento...muchos exitos!
+        comencemos, ingresa tu numero: 
 """
-MENSAJE_FALLIDO = "Fallasteee...ingresa otro numero"
+MENSAJE_FALLIDO = "Fallasteee...ingresa otro numero: "
 MENSAJE_GANASTE = "¡Felicitaciones, ganaste!"
 MENSAJE_PERDISTE = "Perdiste D:"
 #------Entrada al codigo-------
@@ -20,11 +20,11 @@ NumeroIngresado = int (input (PREGUNTAR_NUMERO))
 if (NumeroIngresado != NumeroOculto):
     vidas -=1
 while (NumeroOculto != NumeroIngresado and vidas>0):
-    NumeroIngresado = int (input (PREGUNTA_FALLIDA))
+    NumeroIngresado = int (input (MENSAJE_FALLIDO))
     vidas -=1
 
-if (vidas >= 0 and NumeroIngresado == NumeroOculto):
+if (vidas >= 0 and NumeroOculto == NumeroIngresado):
     print (MENSAJE_GANASTE)
-    print (vidas)
-else 
+    print ("Te queda(n)", vidas, "intento(s)")
+else: 
     print (MENSAJE_PERDISTE, "el numero era el", NumeroOculto)
