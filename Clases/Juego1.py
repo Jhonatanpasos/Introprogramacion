@@ -23,8 +23,8 @@ while (NumeroOculto != NumeroIngresado and vidas>0):
     NumeroIngresado = int (input (PREGUNTA_FALLIDA))
     vidas -=1
 
-if (vidas > 0):
+if (vidas >= 0 and NumeroIngresado == NumeroOculto):
     print (MENSAJE_GANASTE)
     print (vidas)
 else 
-    print (MENSAJE_PERDISTE, "el numero era el", NumeroOculto )
+    print (MENSAJE_PERDISTE, "el numero era el", NumeroOculto)
