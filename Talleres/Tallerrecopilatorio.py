@@ -82,5 +82,5 @@ while (menu != 4) :
         print ('El ingreso en promedio fue', promedioDolares)
     else:
         print (MensajeErrorMenu)
-        menu = int (input (PreguntaMenu))
+    menu = int (input (PreguntaMenu))
 print (MensajeSalida)
