@@ -33,12 +33,12 @@ for elemento in  listaDolares:
     listaPesosColombianos.append(pesos)
 for elemento in  listaDolares:
     euros  = elemento * 0.84
-    listaPesosColombianos.append(euros)
+    listaEuros.append(euros)
 
 #----------Clasificación de ingresos mensuales----------#
-listaIngresos = []
+listaClasificacion = []
 for elemento in listaDolares:
-    clasificacion = ""
+    clasificacion = ''
     if (elemento < 1000 ):
         clasificacion = 'Ingresos bajos'
     elif (elemento >= 1000 and elemento < 7000):
@@ -47,22 +47,21 @@ for elemento in listaDolares:
         clasificacion = 'Ingresos altos'
     else:
         clasificacion = 'Ingresos elevados'
-    listaIngresos.append(clasificacion)
+    listaClasificacion.append(clasificacion)
 
 #--------Ingresos maximos, minimos y promedio-------#
 mayor = max (listaDolares)
 menor = min (listaDolares)
-total = 0
+acumulador = 0
 for elemento in listaDolares :
-    total += elemento
-promedio= total/len(listaDolares)
+    acumulador += elemento
+promedio= acumulador/len(listaDolares)
 promedioDolares = round (promedio,2)
 
 #--------Entrada al menu--------#
 while (menu != 4) :
     if (menu == 1):
         print(MensajeElecciónMenu.format(1))
-        #-------Pregunta conversion-----#
         conversion = input(PreguntaConversión)
         if (conversion == 'C'):
             print (listaPesosColombianos)
@@ -73,10 +72,9 @@ while (menu != 4) :
             print (listaDolares)
         else :
             print (MensajeErrorConversión)
-
     elif (menu == 2):
         print(MensajeElecciónMenu.format(2))
-        print (listaIngresos)
+        print (listaClasificacion)
     elif (menu == 3):
         print(MensajeElecciónMenu.format(3))
         print ('El ingreso máxima fue', mayor)
@@ -84,6 +82,5 @@ while (menu != 4) :
         print ('El ingreso en promedio fue', promedioDolares)
     else:
         print (MensajeErrorMenu)
-
-menu = int (input (PreguntaMenu))
+        menu = int (input (PreguntaMenu))
 print (MensajeSalida)
