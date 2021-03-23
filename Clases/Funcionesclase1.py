@@ -59,4 +59,13 @@ def potencia (a = 0, b = 1):
     exponente = a**b
     return exponente
 
-print (potencia (2,3))
+baseingresada = int (input ("Ingrese una base entera : "))
+exponenteIngresado = int (input ("Ingrese un exponente entero : "))
+
+print (potencia (baseingresada,exponenteIngresado))
+
+#---------Funciones dependientes de otras---------#
+def calcular (operación, numeroA, numeroB):
+    print (operación(numeroA, numeroB))
+
+calcular (sumar, 63, 67)
