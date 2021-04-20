@@ -43,7 +43,7 @@ class Nutricionista():
 
     def calcularIMC (self, peso, estatura) :
         imc = peso/(estatura**2)
-        print (f"Hola mi nombre es {self.nombre}, tengo {self.edad} y egresé de la universidad {self.universidad}")
+        print (f"Hola mi nombre es {self.nombre}, tengo {self.edad} años y egresé de la universidad {self.universidad}")
         print (imc)
 
 nutrición = Nutricionista ("Jhonatan", 19, "CES")
