@@ -55,4 +55,3 @@ Jhonatan.IMC (45, 1.74,)
 # 4. Herede la clase Persona y cree la clase Abogado adicione dos atributos uno asociado a su especialidad y 
 #    el otro a la universidad de la que egresó. Finalmente cree la función que dado un nombre y el caso de cliente 
 #    el abogado diga : procedo a representar al cliente {nombre} en el caso {caso}
-
