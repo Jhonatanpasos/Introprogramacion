@@ -54,7 +54,7 @@ class Cancion (ElementosDigitales):
                 veces = "veces"
             print (f"{self.nombrenuevacancion} ha sonado {reproducciones + 1} {veces}")
 
-nuevacancion1 = Cancion ("YouTube", "Google", "14 de Febrero 2005", "Urbano", "171 segundos" )
+nuevacancion1 = Cancion ("Tu Veneno", "JBalvin", "18 de Marzo 2021", "Urbano", "171 segundos" )
 nuevacancion1.NuevaCancion ("Tu Veneno", "18 de Marzo 2021 por JBalvin")
 nuevacancion1.Reproduccion (7)
 
