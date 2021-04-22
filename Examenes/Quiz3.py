@@ -71,3 +71,10 @@ class Artista (Usuario):
 artista1 = Artista ("JBalvin", 35, "Masculino", "Colombiano", "Urbano", 80, 4)
 artista1.Concierto ("Ibague")
 
+class Favoritos (Pagina):
+    def __init__ (self, tipodecontenido, formato, fechapublicacion, favoritoscomunidad, fechaactualizacion):
+        Pagina.__init__ (self, tipodecontenido, formato, fechapublicacion)
+        self.favoritoscomunidad = favoritoscomunidad
+        self.fechaactualizacion = fechaactualizacion
+    
+    Favoritosdecomunidad = []
