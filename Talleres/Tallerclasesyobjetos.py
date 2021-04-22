@@ -49,3 +49,28 @@ class Nutricionista():
 nutrición = Nutricionista ("Jhonatan", 19, "CES")
 nutrición.calcularIMC (45, 1.72)
 
+# 4. Cree una clase Canguro que tenga los atributos edad, id, nombre. Cree una función que, dada una 
+#    cantidad de saltos, muestre en pantalla uno a uno los saltos del canguro. 
+#    Ejemplo : cangurp.saltos (5) →retorna lo siguiente :
+#      El canguro ha dado 1 salto 
+#      El canguro ha dado 2 salto 
+#      El canguro ha dado 3 salto 
+#      El canguro ha dado 4 salto 
+#      El canguro ha dado 5 salto
+
+class Canguro():
+    def __init__ (self, nombreEntrada, edadEntrada,idEntrada):
+        self.nombre = nombreEntrada
+        self.edad = edadEntrada
+        self.id = idEntrada
+
+    def saltar (self, saltos):
+        for i in range (saltos):
+            print (f"El canguro {self.nombre} ha dado  {i+1}  saltos")
+
+animal = Canguro ("Jhonatan", 19, 100028373)
+animal.saltar (15)
+
+# 5. Piense en su instrumento musical favorito y cree una clase asociada al mismo, defina los atributos 
+#    y cree una función que permita dada una canción interpretarla en el mismo
+
