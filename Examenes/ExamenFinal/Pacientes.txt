@@ -1,0 +1,4 @@
+Datos pacientes consultorio neurología
+Paciente: Samuel Garcia Ramirez
+Descripción de la patología: El paciente fue diagnosticado con una disreflexia autónoma, la cual es una respuesta exagerada de la respuesta simpatica del SNA
+Precio de la consulta: 200000
