@@ -5,6 +5,7 @@ while (isCorrectInfo == False):
         isCorrectInfo = True
     except ValueError:
         print('ingresaste un dato no válido')
+
 nombreArchivo = input('Ingrese el nombre del archivo que desea encontrar: ')
 try:
     archivo = open(nombreArchivo)
